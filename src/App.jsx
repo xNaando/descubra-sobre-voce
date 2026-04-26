@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Test from './pages/Test'
 import Profile from './pages/Profile'
 import Ranking from './pages/Ranking'
+import NotFound from './pages/NotFound'
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function AppContent() {
         <Route path="/teste/:id" element={<Test />} />
         <Route path="/perfil" element={<Profile />} />
         <Route path="/ranking" element={<Ranking />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   )
