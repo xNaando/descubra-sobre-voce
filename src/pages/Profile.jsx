@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { calculateLevel } from '../lib/utils'
 import { TrendingUp, Calendar, Award, Share2, Copy, Check } from 'lucide-react'
 import AdSensePlaceholder from '../components/AdSensePlaceholder'
@@ -126,12 +127,12 @@ export default function Profile() {
               <p className="text-gray-600 dark:text-gray-400 mb-4">
                 Você ainda não completou nenhum teste
               </p>
-              <button
-                onClick={() => window.location.href = '/'}
+              <Link
+                to="/"
                 className="px-6 py-3 bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-lg hover:from-purple-600 hover:to-indigo-700 transition-colors"
               >
                 Começar Agora
-              </button>
+              </Link>
             </div>
           ) : (
             <div className="space-y-4">
