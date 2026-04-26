@@ -9,7 +9,7 @@ import NotFound from './pages/NotFound'
 
 function App() {
   return (
-    <Router basename="/descubra-sobre-voce">
+    <Router>
       <AppContent />
     </Router>
   )
