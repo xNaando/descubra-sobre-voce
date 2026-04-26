@@ -1330,6 +1330,450 @@ export const tests = [
       }
     ],
     trait: 'produtivo'
+  },
+  {
+    id: 'personalidade-comunicacao',
+    title: 'Teste de Comunicação',
+    description: 'Avalie suas habilidades de comunicação',
+    category: 'personalidade',
+    icon: 'MessageCircle',
+    color: 'from-teal-500 to-emerald-600',
+    questions: [
+      {
+        id: 1,
+        text: 'Você se expressa claramente?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 2,
+        text: 'Você ouve ativamente os outros?',
+        options: [
+          { text: 'Sim, sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 3,
+        text: 'Você adapta seu estilo ao público?',
+        options: [
+          { text: 'Sim, naturalmente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Não adapto', score: 1 }
+        ]
+      },
+      {
+        id: 4,
+        text: 'Você resolve mal-entendidos facilmente?',
+        options: [
+          { text: 'Sim, facilmente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Com dificuldade', score: 4 },
+          { text: 'Tenho muita dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 5,
+        text: 'Você dá feedback construtivo?',
+        options: [
+          { text: 'Sim, sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 6,
+        text: 'Você se sente confortável falando em público?',
+        options: [
+          { text: 'Muito confortável', score: 10 },
+          { text: 'Confortável', score: 7 },
+          { text: 'Um pouco nervoso', score: 4 },
+          { text: 'Muito nervoso', score: 1 }
+        ]
+      },
+      {
+        id: 7,
+        text: 'Você usa linguagem corporal eficazmente?',
+        options: [
+          { text: 'Sim, conscientemente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Não presto atenção', score: 1 }
+        ]
+      },
+      {
+        id: 8,
+        text: 'Você faz perguntas para esclarecer?',
+        options: [
+          { text: 'Sim, frequentemente', score: 10 },
+          { text: 'Às vezes', score: 7 },
+          { text: 'Raramente', score: 4 },
+          { text: 'Quase nunca', score: 1 }
+        ]
+      },
+      {
+        id: 9,
+        text: 'Você negocia conflitos?',
+        options: [
+          { text: 'Excelentemente', score: 10 },
+          { text: 'Bem', score: 7 },
+          { text: 'Mais ou menos', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 10,
+        text: 'Você resume informações complexas?',
+        options: [
+          { text: 'Facilmente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Com esforço', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      }
+    ],
+    trait: 'comunicativo'
+  },
+  {
+    id: 'inteligencia-foco',
+    title: 'Teste de Foco',
+    description: 'Avalie sua capacidade de concentração',
+    category: 'inteligencia',
+    icon: 'Eye',
+    color: 'from-indigo-500 to-violet-600',
+    questions: [
+      {
+        id: 1,
+        text: 'Você mantém foco por longos períodos?',
+        options: [
+          { text: 'Facilmente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Com pausas', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 2,
+        text: 'Você elimina distrações ao trabalhar?',
+        options: [
+          { text: 'Sim, completamente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 3,
+        text: 'Você volta ao foco após interrupções?',
+        options: [
+          { text: 'Rapidamente', score: 10 },
+          { text: 'Geralmente rápido', score: 7 },
+          { text: 'Demora um pouco', score: 4 },
+          { text: 'Tenho muita dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 4,
+        text: 'Você usa técnicas de concentração?',
+        options: [
+          { text: 'Sim, várias', score: 10 },
+          { text: 'Algumas', score: 7 },
+          { text: 'Raramente', score: 4 },
+          { text: 'Não uso', score: 1 }
+        ]
+      },
+      {
+        id: 5,
+        text: 'Você completa tarefas sem procrastinar?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Frequentemente protocrastino', score: 1 }
+        ]
+      },
+      {
+        id: 6,
+        text: 'Você prioriza uma tarefa de cada vez?',
+        options: [
+          { text: 'Sim, sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes multitarefa', score: 4 },
+          { text: 'Frequento multitarefa', score: 1 }
+        ]
+      },
+      {
+        id: 7,
+        text: 'Você mantém foco em tarefas chatas?',
+        options: [
+          { text: 'Sim, bem', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Com dificuldade', score: 4 },
+          { text: 'Não consigo', score: 1 }
+        ]
+      },
+      {
+        id: 8,
+        text: 'Você define metas de curto prazo?',
+        options: [
+          { text: 'Sim, sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 9,
+        text: 'Você revisa seu trabalho antes de entregar?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 10,
+        text: 'Você se sente satisfeito com seu foco?',
+        options: [
+          { text: 'Muito satisfeito', score: 10 },
+          { text: 'Satisfeito', score: 7 },
+          { text: 'Mais ou menos', score: 4 },
+          { text: 'Insatisfeito', score: 1 }
+        ]
+      }
+    ],
+    trait: 'focado'
+  },
+  {
+    id: 'estilo-vida-financeiro',
+    title: 'Teste de Hábitos Financeiros',
+    description: 'Avalie sua relação com dinheiro',
+    category: 'estilo-vida',
+    icon: 'DollarSign',
+    color: 'from-emerald-500 to-green-600',
+    questions: [
+      {
+        id: 1,
+        text: 'Você faz orçamento mensal?',
+        options: [
+          { text: 'Sim, detalhado', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Não faço', score: 1 }
+        ]
+      },
+      {
+        id: 2,
+        text: 'Você poupa regularmente?',
+        options: [
+          { text: 'Sim, todo mês', score: 10 },
+          { text: 'Frequentemente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente/Nunca', score: 1 }
+        ]
+      },
+      {
+        id: 3,
+        text: 'Você controla gastos impulsivos?',
+        options: [
+          { text: 'Sim, muito bem', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 4,
+        text: 'Você acompanha suas finanças?',
+        options: [
+          { text: 'Sim, semanalmente', score: 10 },
+          { text: 'Mensalmente', score: 7 },
+          { text: 'Ocasionalmente', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 5,
+        text: 'Você tem reserva de emergência?',
+        options: [
+          { text: 'Sim, suficiente', score: 10 },
+          { text: 'Parcial', score: 7 },
+          { text: 'Pequena', score: 4 },
+          { text: 'Não tenho', score: 1 }
+        ]
+      },
+      {
+        id: 6,
+        text: 'Você investe para o futuro?',
+        options: [
+          { text: 'Sim, regularmente', score: 10 },
+          { text: 'Às vezes', score: 7 },
+          { text: 'Raramente', score: 4 },
+          { text: 'Não invisto', score: 1 }
+        ]
+      },
+      {
+        id: 7,
+        text: 'Você evita dí desnecessárias?',
+        options: [
+          { text: 'Sim, completamente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Tenho dívidas', score: 1 }
+        ]
+      },
+      {
+        id: 8,
+        text: 'Você pesquisa antes de comprar?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 9,
+        text: 'Você planeja gastos grandes?',
+        options: [
+          { text: 'Sim, detalhadamente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Não planejo', score: 1 }
+        ]
+      },
+      {
+        id: 10,
+        text: 'Você se sente seguro financeiramente?',
+        options: [
+          { text: 'Muito seguro', score: 10 },
+          { text: 'Seguro', score: 7 },
+          { text: 'Mais ou menos', score: 4 },
+          { text: 'Inseguro', score: 1 }
+        ]
+      }
+    ],
+    trait: 'financeiramente responsável'
+  },
+  {
+    id: 'personalidade-otimismo',
+    title: 'Teste de Otimismo',
+    description: 'Descubra seu nível de otimismo',
+    category: 'personalidade',
+    icon: 'Sun',
+    color: 'from-yellow-400 to-orange-500',
+    questions: [
+      {
+        id: 1,
+        text: 'Você vê o lado positivo das situações?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 2,
+        text: 'Você acredita que as coisas vão melhorar?',
+        options: [
+          { text: 'Sim, sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Tenho dúvidas', score: 1 }
+        ]
+      },
+      {
+        id: 3,
+        text: 'Você encara desafios como oportunidades?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Frequentemente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Vejo como problemas', score: 1 }
+        ]
+      },
+      {
+        id: 4,
+        text: 'Você se sente esperançoso sobre o futuro?',
+        options: [
+          { text: 'Muito esperançoso', score: 10 },
+          { text: 'Esperançoso', score: 7 },
+          { text: 'Neutro', score: 4 },
+          { text: 'Pessimista', score: 1 }
+        ]
+      },
+      {
+        id: 5,
+        text: 'Você celebra pequenas vitórias?',
+        options: [
+          { text: 'Sim, sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 6,
+        text: 'Você mantém pensamentos positivos?',
+        options: [
+          { text: 'Sim, naturalmente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Com esforço', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 7,
+        text: 'Você supera pensamentos negativos?',
+        options: [
+          { text: 'Facilmente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Com dificuldade', score: 4 },
+          { text: 'Fico preso neles', score: 1 }
+        ]
+      },
+      {
+        id: 8,
+        text: 'Você motiva outras pessoas?',
+        options: [
+          { text: 'Sim, frequentemente', score: 10 },
+          { text: 'Às vezes', score: 7 },
+          { text: 'Raramente', score: 4 },
+          { text: 'Não muito', score: 1 }
+        ]
+      },
+      {
+        id: 9,
+        text: 'Você ri e sorri frequentemente?',
+        options: [
+          { text: 'Muito', score: 10 },
+          { text: 'Bastante', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Pouco', score: 1 }
+        ]
+      },
+      {
+        id: 10,
+        text: 'Você acredita em suas capacidades?',
+        options: [
+          { text: 'Sim, muito', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Tenho dúvidas', score: 1 }
+        ]
+      }
+    ],
+    trait: 'otimista'
   }
 ]
 
