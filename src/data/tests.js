@@ -1219,6 +1219,117 @@ export const tests = [
       }
     ],
     trait: 'resiliente'
+  },
+  {
+    id: 'personalidade-produtividade',
+    title: 'Teste de Produtividade',
+    description: 'Descubra o quão produtivo você é no dia a dia',
+    category: 'personalidade',
+    icon: 'Zap',
+    color: 'from-orange-500 to-red-600',
+    questions: [
+      {
+        id: 1,
+        text: 'Você define metas diárias?',
+        options: [
+          { text: 'Sim, sempre', score: 10 },
+          { text: 'Frequentemente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 2,
+        text: 'Você evita distrações digitais?',
+        options: [
+          { text: 'Sim, completamente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 3,
+        text: 'Você usa técnicas de produtividade?',
+        options: [
+          { text: 'Sim, várias', score: 10 },
+          { text: 'Algumas', score: 7 },
+          { text: 'Raramente', score: 4 },
+          { text: 'Não uso', score: 1 }
+        ]
+      },
+      {
+        id: 4,
+        text: 'Você prioriza tarefas importantes?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 5,
+        text: 'Você conclui tarefas no prazo?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Frequentemente atraso', score: 1 }
+        ]
+      },
+      {
+        id: 6,
+        text: 'Você faz pausas estratégicas?',
+        options: [
+          { text: 'Sim, regularmente', score: 10 },
+          { text: 'Às vezes', score: 7 },
+          { text: 'Raramente', score: 4 },
+          { text: 'Não faço pausas', score: 1 }
+        ]
+      },
+      {
+        id: 7,
+        text: 'Você organiza seu ambiente de trabalho?',
+        options: [
+          { text: 'Impecavelmente', score: 10 },
+          { text: 'Bem organizado', score: 7 },
+          { text: 'Moderadamente', score: 4 },
+          { text: 'Bagunçado', score: 1 }
+        ]
+      },
+      {
+        id: 8,
+        text: 'Você delega tarefas quando necessário?',
+        options: [
+          { text: 'Sim, eficientemente', score: 10 },
+          { text: 'Quando preciso', score: 7 },
+          { text: 'Raramente', score: 4 },
+          { text: 'Faço tudo eu mesmo', score: 1 }
+        ]
+      },
+      {
+        id: 9,
+        text: 'Você revisa seu progresso regularmente?',
+        options: [
+          { text: 'Sim, semanalmente', score: 10 },
+          { text: 'Às vezes', score: 7 },
+          { text: 'Raramente', score: 4 },
+          { text: 'Não reviso', score: 1 }
+        ]
+      },
+      {
+        id: 10,
+        text: 'Você se sente satisfeito com sua produtividade?',
+        options: [
+          { text: 'Muito satisfeito', score: 10 },
+          { text: 'Satisfeito', score: 7 },
+          { text: 'Mais ou menos', score: 4 },
+          { text: 'Insatisfeito', score: 1 }
+        ]
+      }
+    ],
+    trait: 'produtivo'
   }
 ]
 
