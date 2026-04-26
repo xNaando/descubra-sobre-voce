@@ -36,7 +36,7 @@ export default function Home() {
         <AdSensePlaceholder position="horizontal" />
 
         {/* All Tests */}
-        <section className="mb-12">
+        <section className="mb-12 mt-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {tests.map((test) => (
               <Link
