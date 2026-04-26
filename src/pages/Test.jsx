@@ -122,12 +122,14 @@ export default function Test() {
             <span>{Math.round(progress)}%</span>
           </div>
           <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
-            <div 
+            <div
               className="h-full bg-gradient-to-r from-purple-500 to-indigo-600 transition-all duration-300"
               style={{ width: `${progress}%` }}
             />
           </div>
         </div>
+
+        <AdSensePlaceholder position="horizontal" className="mb-8" />
 
         {/* Question Card */}
         <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-xl mb-8">
