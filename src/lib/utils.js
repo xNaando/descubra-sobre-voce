@@ -20,5 +20,5 @@ export function calculateLevel(totalTests) {
 }
 
 export function getShareableText(testName, score, trait) {
-  return `🎯 Descubra sobre você!\n\nEu fiz o teste "${testName}" e sou ${score}% ${trait}!\n\nFaça o teste e descubra mais sobre você: ${window.location.href}`
+  return `🎯 Descubra + Sobre Você!\n\nEu fiz o teste "${testName}" e sou ${score}% ${trait}!\n\nFaça o teste e descubra mais sobre você: ${window.location.href}`
 }

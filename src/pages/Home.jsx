@@ -10,7 +10,7 @@ export default function Home() {
       <section className="bg-gradient-to-br from-purple-600 via-indigo-600 to-blue-600 text-white py-16 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Descubra Sobre Você
+            Descubra + Sobre Você
           </h1>
           <p className="text-xl md:text-2xl mb-8 opacity-90">
             Testes de personalidade, inteligência e estilo de vida

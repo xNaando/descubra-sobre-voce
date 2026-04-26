@@ -21,7 +21,7 @@ export default function Navigation() {
               <span className="text-white font-bold text-xl">D</span>
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
-              Descubra sobre Você
+              Descubra + Sobre Você
             </span>
           </Link>
 

@@ -1,4 +1,4 @@
-# Descubra Sobre Você
+# Descubra + Sobre Você
 
 Uma aplicação web completa de testes de personalidade, inteligência e estilo de vida, com sistema de perfil evolutivo, compartilhamento de resultados e ranking de usuários.
 

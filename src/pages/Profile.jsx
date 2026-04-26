@@ -16,7 +16,7 @@ export default function Profile() {
   const levelInfo = calculateLevel(history.length)
 
   const handleShare = () => {
-    const shareText = `🎯 Descubra sobre você!\n\nCompletei ${history.length} testes e alcancei o nível ${levelInfo.level} - ${levelInfo.title}!\n\nFaça os testes e descubra mais sobre você: ${window.location.href}`
+    const shareText = `🎯 Descubra + Sobre Você!\n\nCompletei ${history.length} testes e alcancei o nível ${levelInfo.level} - ${levelInfo.title}!\n\nFaça os testes e descubra mais sobre você: ${window.location.href}`
     navigator.clipboard.writeText(shareText)
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
