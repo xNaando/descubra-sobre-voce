@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { tests, categories } from '../data/tests'
+import { tests } from '../data/tests'
 import { Sparkles, TrendingUp, Users } from 'lucide-react'
 import AdSensePlaceholder from '../components/AdSensePlaceholder'
 
@@ -35,36 +35,8 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <AdSensePlaceholder position="horizontal" />
 
-        {/* Categories */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">
-            Categorias de Testes
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {categories.map((category) => (
-              <div
-                key={category.id}
-                className="bg-gradient-to-br from-white to-gray-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow"
-              >
-                <div className={`w-16 h-16 bg-gradient-to-br ${category.color} rounded-xl flex items-center justify-center mb-4`}>
-                  <span className="text-3xl">{category.icon === 'User' ? '👤' : category.icon === 'Brain' ? '🧠' : '❤️'}</span>
-                </div>
-                <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2">
-                  {category.name}
-                </h3>
-                <p className="text-gray-600 dark:text-gray-400">
-                  {tests.filter(t => t.category === category.id).length} testes disponíveis
-                </p>
-              </div>
-            ))}
-          </div>
-        </section>
-
         {/* All Tests */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">
-            Todos os Testes
-          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {tests.map((test) => (
               <Link
