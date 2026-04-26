@@ -46,7 +46,7 @@ export default function Home() {
               >
                 <div className="bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                   <div className={`h-32 bg-gradient-to-br ${test.color} flex items-center justify-center`}>
-                    <span className="text-6xl">{test.icon === 'Target' ? '🎯' : test.icon === 'Lightbulb' ? '💡' : test.icon === 'Brain' ? '🧠' : test.icon === 'Layout' ? '📋' : test.icon === 'Users' ? '👥' : '❤️'}</span>
+                    <span className="text-6xl">{test.icon === 'Target' ? '🎯' : test.icon === 'Lightbulb' ? '💡' : test.icon === 'Brain' ? '🧠' : test.icon === 'Layout' ? '📋' : test.icon === 'Users' ? '👥' : test.icon === 'Heart' ? '❤️' : test.icon === 'Crown' ? '👑' : test.icon === 'Scale' ? '⚖️' : test.icon === 'Shield' ? '🛡️' : '❤️'}</span>
                   </div>
                   <div className="p-6">
                     <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2 group-hover:text-purple-600 transition-colors">

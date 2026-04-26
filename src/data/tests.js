@@ -664,6 +664,561 @@ export const tests = [
       }
     ],
     trait: 'saudável'
+  },
+  {
+    id: 'personalidade-lideranca',
+    title: 'Teste de Liderança',
+    description: 'Descubra seu potencial como líder',
+    category: 'personalidade',
+    icon: 'Crown',
+    color: 'from-amber-500 to-yellow-600',
+    questions: [
+      {
+        id: 1,
+        text: 'Você toma iniciativa em situações de grupo?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Frequentemente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 2,
+        text: 'Você consegue motivar outras pessoas?',
+        options: [
+          { text: 'Facilmente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 3,
+        text: 'Você assume responsabilidade por erros da equipe?',
+        options: [
+          { text: 'Sim, sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Depende', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 4,
+        text: 'Você toma decisões difíceis sob pressão?',
+        options: [
+          { text: 'Sim, com confiança', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Com dificuldade', score: 4 },
+          { text: 'Evito decisões', score: 1 }
+        ]
+      },
+      {
+        id: 5,
+        text: 'Você ouve opiniões diferentes das suas?',
+        options: [
+          { text: 'Sim, valorizo', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Prefiro minha opinião', score: 1 }
+        ]
+      },
+      {
+        id: 6,
+        text: 'Você delega tarefas eficientemente?',
+        options: [
+          { text: 'Sim, muito bem', score: 10 },
+          { text: 'Bem', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 7,
+        text: 'Você inspira confiança nos outros?',
+        options: [
+          { text: 'Sim, muito', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Não muito', score: 1 }
+        ]
+      },
+      {
+        id: 8,
+        text: 'Você vislumbra o longo prazo?',
+        options: [
+          { text: 'Sim, claramente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Foco no presente', score: 1 }
+        ]
+      },
+      {
+        id: 9,
+        text: 'Você resolve conflitos entre pessoas?',
+        options: [
+          { text: 'Sim, eficientemente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Evito conflitos', score: 1 }
+        ]
+      },
+      {
+        id: 10,
+        text: 'Você busca constantemente melhorar?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Frequentemente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      }
+    ],
+    trait: 'líder'
+  },
+  {
+    id: 'inteligencia-memoria',
+    title: 'Teste de Memória',
+    description: 'Avalie sua capacidade de memorização',
+    category: 'inteligencia',
+    icon: 'Brain',
+    color: 'from-violet-500 to-purple-600',
+    questions: [
+      {
+        id: 1,
+        text: 'Você lembra de nomes de pessoas que conheceu recentemente?',
+        options: [
+          { text: 'Facilmente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 2,
+        text: 'Você lembra de detalhes de conversas antigas?',
+        options: [
+          { text: 'Muitos detalhes', score: 10 },
+          { text: 'Bastantes', score: 7 },
+          { text: 'Alguns', score: 4 },
+          { text: 'Poucos', score: 1 }
+        ]
+      },
+      {
+        id: 3,
+        text: 'Você lembra de datas importantes?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 4,
+        text: 'Você usa técnicas para memorizar coisas?',
+        options: [
+          { text: 'Sim, várias', score: 10 },
+          { text: 'Algumas', score: 7 },
+          { text: 'Raramente', score: 4 },
+          { text: 'Não uso', score: 1 }
+        ]
+      },
+      {
+        id: 5,
+        text: 'Você lembra onde colocou objetos?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Frequentemente esqueço', score: 1 }
+        ]
+      },
+      {
+        id: 6,
+        text: 'Você lembra de roteiros ou caminhos?',
+        options: [
+          { text: 'Facilmente', score: 10 },
+          { text: 'Com alguma facilidade', score: 7 },
+          { text: 'Com dificuldade', score: 4 },
+          { text: 'Tenho muita dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 7,
+        text: 'Você lembra de informações que leu?',
+        options: [
+          { text: 'Muitas informações', score: 10 },
+          { text: 'Bastantes', score: 7 },
+          { text: 'Algumas', score: 4 },
+          { text: 'Poucas', score: 1 }
+        ]
+      },
+      {
+        id: 8,
+        text: 'Você lembra de sonhos?',
+        options: [
+          { text: 'Vividamente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 9,
+        text: 'Você lembra de letras de músicas?',
+        options: [
+          { text: 'Muitas letras', score: 10 },
+          { text: 'Algumas', score: 7 },
+          { text: 'Poucas', score: 4 },
+          { text: 'Quase nenhuma', score: 1 }
+        ]
+      },
+      {
+        id: 10,
+        text: 'Você revisa informações para memorizar melhor?',
+        options: [
+          { text: 'Sim, sempre', score: 10 },
+          { text: 'Frequentemente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      }
+    ],
+    trait: 'memória'
+  },
+  {
+    id: 'estilo-vida-equilibrio',
+    title: 'Teste de Equilíbrio',
+    description: 'Descubra seu equilíbrio entre trabalho e vida pessoal',
+    category: 'estilo-vida',
+    icon: 'Scale',
+    color: 'from-cyan-500 to-blue-600',
+    questions: [
+      {
+        id: 1,
+        text: 'Você consegue separar trabalho da vida pessoal?',
+        options: [
+          { text: 'Perfeitamente', score: 10 },
+          { text: 'Bem', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Dificilmente', score: 1 }
+        ]
+      },
+      {
+        id: 2,
+        text: 'Você tem tempo para hobbies?',
+        options: [
+          { text: 'Sim, suficiente', score: 10 },
+          { text: 'Algum tempo', score: 7 },
+          { text: 'Pouco tempo', score: 4 },
+          { text: 'Quase nenhum', score: 1 }
+        ]
+      },
+      {
+        id: 3,
+        text: 'Você trabalha além do horário regular?',
+        options: [
+          { text: 'Raramente/Nunca', score: 10 },
+          { text: 'Ocasionalmente', score: 7 },
+          { text: 'Frequentemente', score: 4 },
+          { text: 'Sempre', score: 1 }
+        ]
+      },
+      {
+        id: 4,
+        text: 'Você passa tempo com família/amigos?',
+        options: [
+          { text: 'Muito tempo', score: 10 },
+          { text: 'Bastante', score: 7 },
+          { text: 'Algum tempo', score: 4 },
+          { text: 'Pouco tempo', score: 1 }
+        ]
+      },
+      {
+        id: 5,
+        text: 'Você tira férias regularmente?',
+        options: [
+          { text: 'Sim, anualmente', score: 10 },
+          { text: 'Às vezes', score: 7 },
+          { text: 'Raramente', score: 4 },
+          { text: 'Nunca', score: 1 }
+        ]
+      },
+      {
+        id: 6,
+        text: 'Você se sente sobrecarregado?',
+        options: [
+          { text: 'Raramente', score: 10 },
+          { text: 'Às vezes', score: 7 },
+          { text: 'Frequentemente', score: 4 },
+          { text: 'Sempre', score: 1 }
+        ]
+      },
+      {
+        id: 7,
+        text: 'Você prioriza seu bem-estar?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 8,
+        text: 'Você consegue relaxar no fim de semana?',
+        options: [
+          { text: 'Sim, completamente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Parcialmente', score: 4 },
+          { text: 'Não consigo', score: 1 }
+        ]
+      },
+      {
+        id: 9,
+        text: 'Você diz "não" quando precisa?',
+        options: [
+          { text: 'Sim, facilmente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Com dificuldade', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 10,
+        text: 'Você está satisfeito com seu equilíbrio atual?',
+        options: [
+          { text: 'Muito satisfeito', score: 10 },
+          { text: 'Satisfeito', score: 7 },
+          { text: 'Mais ou menos', score: 4 },
+          { text: 'Insatisfeito', score: 1 }
+        ]
+      }
+    ],
+    trait: 'equilibrado'
+  },
+  {
+    id: 'personalidade-empatia',
+    title: 'Teste de Empatia',
+    description: 'Descubra quão empático você é',
+    category: 'personalidade',
+    icon: 'Heart',
+    color: 'from-rose-500 to-pink-600',
+    questions: [
+      {
+        id: 1,
+        text: 'Você sente o que outros sentem?',
+        options: [
+          { text: 'Intensamente', score: 10 },
+          { text: 'Frequentemente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 2,
+        text: 'Você ouve atentamente os problemas dos outros?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 3,
+        text: 'Você ajuda pessoas em necessidade?',
+        options: [
+          { text: 'Sempre que posso', score: 10 },
+          { text: 'Frequentemente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 4,
+        text: 'Você entende diferentes perspectivas?',
+        options: [
+          { text: 'Facilmente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Com esforço', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 5,
+        text: 'Você se emociona com filmes/livros?',
+        options: [
+          { text: 'Muito', score: 10 },
+          { text: 'Bastante', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Pouco', score: 1 }
+        ]
+      },
+      {
+        id: 6,
+        text: 'Você percebe o humor das pessoas?',
+        options: [
+          { text: 'Facilmente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 7,
+        text: 'Você coloca-se no lugar do outro?',
+        options: [
+          { text: 'Naturalmente', score: 10 },
+          { text: 'Frequentemente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 8,
+        text: 'Você é paciente com pessoas difíceis?',
+        options: [
+          { text: 'Muito paciente', score: 10 },
+          { text: 'Geralmente paciente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Pouco paciente', score: 1 }
+        ]
+      },
+      {
+        id: 9,
+        text: 'Você conforta pessoas tristes?',
+        options: [
+          { text: 'Sim, espontaneamente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Não sei como', score: 1 }
+        ]
+      },
+      {
+        id: 10,
+        text: 'Você se preocupa com o bem-estar dos outros?',
+        options: [
+          { text: 'Muito', score: 10 },
+          { text: 'Bastante', score: 7 },
+          { text: 'Algum', score: 4 },
+          { text: 'Pouco', score: 1 }
+        ]
+      }
+    ],
+    trait: 'empático'
+  },
+  {
+    id: 'personalidade-resiliencia',
+    title: 'Teste de Resiliência',
+    description: 'Descubra sua capacidade de superar desafios',
+    category: 'personalidade',
+    icon: 'Shield',
+    color: 'from-slate-500 to-gray-600',
+    questions: [
+      {
+        id: 1,
+        text: 'Você se recupera rápido de fracassos?',
+        options: [
+          { text: 'Muito rápido', score: 10 },
+          { text: 'Relativamente rápido', score: 7 },
+          { text: 'Leva um tempo', score: 4 },
+          { text: 'Tenho dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 2,
+        text: 'Você vê problemas como oportunidades?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Frequentemente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 3,
+        text: 'Você mantém esperança em situações difíceis?',
+        options: [
+          { text: 'Sim, sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Perco a esperança', score: 1 }
+        ]
+      },
+      {
+        id: 4,
+        text: 'Você adapta-se a mudanças?',
+        options: [
+          { text: 'Facilmente', score: 10 },
+          { text: 'Bem', score: 7 },
+          { text: 'Com dificuldade', score: 4 },
+          { text: 'Tenho muita dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 5,
+        text: 'Você busca soluções em vez de focar no problema?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Foco no problema', score: 1 }
+        ]
+      },
+      {
+        id: 6,
+        text: 'Você aprende com erros?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 7,
+        text: 'Você mantém calma sob pressão?',
+        options: [
+          { text: 'Muito calmo', score: 10 },
+          { text: 'Calmo', score: 7 },
+          { text: 'Um pouco tenso', score: 4 },
+          { text: 'Muito tenso', score: 1 }
+        ]
+      },
+      {
+        id: 8,
+        text: 'Você pede ajuda quando precisa?',
+        options: [
+          { text: 'Sim, facilmente', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Com dificuldade', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 9,
+        text: 'Você persiste apesar de obstáculos?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Desisto facilmente', score: 1 }
+        ]
+      },
+      {
+        id: 10,
+        text: 'Você se sente forte após superar desafios?',
+        options: [
+          { text: 'Muito mais forte', score: 10 },
+          { text: 'Mais forte', score: 7 },
+          { text: 'Um pouco', score: 4 },
+          { text: 'Não sinto diferença', score: 1 }
+        ]
+      }
+    ],
+    trait: 'resiliente'
   }
 ]
 
