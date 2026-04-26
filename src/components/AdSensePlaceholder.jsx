@@ -1,8 +1,8 @@
-export default function AdSensePlaceholder({ position = 'horizontal' }) {
+export default function AdSensePlaceholder({ position = 'horizontal', className = '' }) {
   const isHorizontal = position === 'horizontal'
-  
+
   return (
-    <div className={`w-full ${isHorizontal ? 'h-24 md:h-32' : 'h-64 md:h-96'} bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center border-2 border-dashed border-gray-300 dark:border-gray-600`}>
+    <div className={`w-full ${isHorizontal ? 'h-24 md:h-32' : 'h-64 md:h-96'} bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center border-2 border-dashed border-gray-300 dark:border-gray-600 ${className}`}>
       <div className="text-center p-4">
         <p className="text-gray-500 dark:text-gray-400 text-sm font-medium">
           Espaço para Google AdSense
