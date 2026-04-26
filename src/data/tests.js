@@ -1774,6 +1774,228 @@ export const tests = [
       }
     ],
     trait: 'otimista'
+  },
+  {
+    id: 'personalidade-ansiedade',
+    title: 'Teste de Ansiedade',
+    description: 'Avalie seu nível de ansiedade',
+    category: 'personalidade',
+    icon: 'AlertTriangle',
+    color: 'from-amber-600 to-orange-700',
+    questions: [
+      {
+        id: 1,
+        text: 'Você se preocupa excessivamente com o futuro?',
+        options: [
+          { text: 'Sim, muito', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 2,
+        text: 'Você sente tensão física sem motivo aparente?',
+        options: [
+          { text: 'Frequentemente', score: 10 },
+          { text: 'Às vezes', score: 7 },
+          { text: 'Raramente', score: 4 },
+          { text: 'Quase nunca', score: 1 }
+        ]
+      },
+      {
+        id: 3,
+        text: 'Você tem dificuldade em relaxar?',
+        options: [
+          { text: 'Muita dificuldade', score: 10 },
+          { text: 'Alguma dificuldade', score: 7 },
+          { text: 'Pouca dificuldade', score: 4 },
+          { text: 'Nenhuma dificuldade', score: 1 }
+        ]
+      },
+      {
+        id: 4,
+        text: 'Você pensa repetidamente em problemas?',
+        options: [
+          { text: 'Constantemente', score: 10 },
+          { text: 'Frequentemente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 5,
+        text: 'Você evita situações que causam ansiedade?',
+        options: [
+          { text: 'Sim, frequentemente', score: 10 },
+          { text: 'Às vezes', score: 7 },
+          { text: 'Raramente', score: 4 },
+          { text: 'Não evito', score: 1 }
+        ]
+      },
+      {
+        id: 6,
+        text: 'Você tem problemas para dormir por preocupação?',
+        options: [
+          { text: 'Frequentemente', score: 10 },
+          { text: 'Às vezes', score: 7 },
+          { text: 'Raramente', score: 4 },
+          { text: 'Nunca', score: 1 }
+        ]
+      },
+      {
+        id: 7,
+        text: 'Você se sente inquieto ou agitado?',
+        options: [
+          { text: 'Muito', score: 10 },
+          { text: 'Bastante', score: 7 },
+          { text: 'Um pouco', score: 4 },
+          { text: 'Não me sinto assim', score: 1 }
+        ]
+      },
+      {
+        id: 8,
+        text: 'Você tem pensamentos negativos recorrentes?',
+        options: [
+          { text: 'Constantemente', score: 10 },
+          { text: 'Frequentemente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 9,
+        text: 'Você se sente sobrecarregado facilmente?',
+        options: [
+          { text: 'Sim, muito', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 10,
+        text: 'Você busca ajuda para lidar com ansiedade?',
+        options: [
+          { text: 'Sim, procuro ajuda', score: 1 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 7 },
+          { text: 'Não procuro ajuda', score: 10 }
+        ]
+      }
+    ],
+    trait: 'ansioso'
+  },
+  {
+    id: 'inteligencia-aprendizado',
+    title: 'Teste de Aprendizado',
+    description: 'Descubra seu estilo de aprendizado',
+    category: 'inteligencia',
+    icon: 'BookOpen',
+    color: 'from-blue-600 to-indigo-700',
+    questions: [
+      {
+        id: 1,
+        text: 'Você prefere aprender lendo textos?',
+        options: [
+          { text: 'Sim, muito', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Prefiro outros métodos', score: 1 }
+        ]
+      },
+      {
+        id: 2,
+        text: 'Você aprende melhor com vídeos?',
+        options: [
+          { text: 'Sim, muito', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Prefiro outros métodos', score: 1 }
+        ]
+      },
+      {
+        id: 3,
+        text: 'Você prefere aprender fazendo na prática?',
+        options: [
+          { text: 'Sim, muito', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Prefiro outros métodos', score: 1 }
+        ]
+      },
+      {
+        id: 4,
+        text: 'Você faz anotações ao estudar?',
+        options: [
+          { text: 'Sempre', score: 10 },
+          { text: 'Frequentemente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 5,
+        text: 'Você usa técnicas de memorização?',
+        options: [
+          { text: 'Sim, várias', score: 10 },
+          { text: 'Algumas', score: 7 },
+          { text: 'Poucas', score: 4 },
+          { text: 'Não uso', score: 1 }
+        ]
+      },
+      {
+        id: 6,
+        text: 'Você estuda melhor sozinho ou em grupo?',
+        options: [
+          { text: 'Sozinho', score: 10 },
+          { text: 'Depende do assunto', score: 7 },
+          { text: 'Em grupo', score: 4 },
+          { text: 'Não tenho preferência', score: 1 }
+        ]
+      },
+      {
+        id: 7,
+        text: 'Você revisa o conteúdo regularmente?',
+        options: [
+          { text: 'Sim, sempre', score: 10 },
+          { text: 'Frequentemente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 8,
+        text: 'Você faz perguntas quando não entende?',
+        options: [
+          { text: 'Sim, sempre', score: 10 },
+          { text: 'Geralmente', score: 7 },
+          { text: 'Às vezes', score: 4 },
+          { text: 'Raramente', score: 1 }
+        ]
+      },
+      {
+        id: 9,
+        text: 'Você ensina o que aprendeu para fixar?',
+        options: [
+          { text: 'Sim, frequentemente', score: 10 },
+          { text: 'Às vezes', score: 7 },
+          { text: 'Raramente', score: 4 },
+          { text: 'Nunca', score: 1 }
+        ]
+      },
+      {
+        id: 10,
+        text: 'Você se sente motivado a aprender coisas novas?',
+        options: [
+          { text: 'Muito motivado', score: 10 },
+          { text: 'Motivado', score: 7 },
+          { text: 'Mais ou menos', score: 4 },
+          { text: 'Pouco motivado', score: 1 }
+        ]
+      }
+    ],
+    trait: 'aprendiz'
   }
 ]
 
