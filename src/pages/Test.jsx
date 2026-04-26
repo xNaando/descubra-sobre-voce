@@ -137,7 +137,7 @@ export default function Test() {
             {question.text}
           </h2>
 
-          <div className="space-y-4">
+          <div className="space-y-4" key={currentQuestion}>
             {question.options.map((option, index) => (
               <button
                 key={index}
